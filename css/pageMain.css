@@ -80,7 +80,6 @@ li:hover{
 #conteudo{
     width: 100vw;
     height: 100vh;
-    background-color: blue;
     background: url('/imgs/architect-3979490.png');
     background-size: cover;
 }
@@ -109,5 +108,32 @@ li:hover{
 }
 
 #desc{
-    font-size: 0.25em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 26%;
+    width: 50%;
+}
+
+#desc p{
+    font-size: 1em;
+}
+
+#desc button{
+    margin: 6% 45%;
+    padding: 15px 50px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #F2CB05;
+    background: none;
+    color: #F2F2F2;
+    font-size: 1em;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Coustard', serif;
+}
+
+#desc button:hover{
+    background-color: #f2cb05;;
 }
