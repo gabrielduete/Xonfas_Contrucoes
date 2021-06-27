@@ -51,6 +51,8 @@ ul li{
    margin: 5px;
    cursor: pointer;
    border-bottom:solid 2px  #F2CB05;
+   transition-property: color;
+   transition-duration: 0.20s;
 }
 
 #botoesMenu button{
@@ -67,6 +69,8 @@ ul li{
     background: none;
     border-radius: 10px;
     outline: none;
+    transition-property: background-color;
+    transition-duration: 0.60s;
 }
 
 #botaoLogin:hover{
@@ -103,30 +107,26 @@ li:hover{
     font-size: 1.6em;
 }
 
-#construcoes{
-    margin-left: 10%;
-}
-
 #desc{
     font-family: 'Roboto', sans-serif;
     color: white;
     position: absolute;
     margin-top: 23%;
-    margin-left: 26%;
+    margin-left: 5%;
     width: 50%;
 }
 
 #desc p{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 #desc button{
-    margin: 6% 45%;
+    margin: 6% 18%;
     padding: 15px 50px;
     border-radius: 20px;
     border-style: solid;
     border-color: #F2CB05;
-    background: none;
+    background-color: #F2CB05;
     color: #F2F2F2;
     font-size: 1em;
     outline: none;
@@ -134,6 +134,8 @@ li:hover{
     font-family: 'Coustard', serif;
 }
 
-#desc button:hover{
-    background-color: #f2cb05;;
+#desc button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
 }
