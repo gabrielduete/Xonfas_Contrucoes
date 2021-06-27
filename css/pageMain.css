@@ -1,0 +1,113 @@
+/* 
+Paleta de cores{
+    Rosa: #F2CA99
+    Branco: #F2F2F2
+    Rosa-Branco: #F29727
+    Amarelo-Escuro: #F2CB05
+    Amarelo: #F2E307   
+}
+
+Fontes{
+    Fonte Pequena: font-family: 'Coustard', serif;
+    Fonte Grande: font-family: 'Roboto', sans-serif;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Coustard&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e9e7d3fb;
+    font-family: 'Coustard', serif;
+}
+
+#cabecalho{
+    background-color: #fafafa;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+#cabecalho img{
+    height: 4.5em;
+    cursor: pointer;
+}
+
+ul{
+    flex-grow: 1;
+    display: flex;
+    margin: 10px;
+}
+
+ul li{
+   list-style: none;
+   margin: 5px;
+   cursor: pointer;
+   border-bottom:solid 2px  #F2CB05;
+}
+
+#botoesMenu button{
+    margin: 10px;
+    font-size: 15px;
+}
+
+#botaoLogin{
+    cursor: pointer;
+    padding: 6px;
+    margin: 10px;
+    border-style: solid;
+    border-color: #F2CB05;
+    background: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+#botaoLogin:hover{
+    background-color: #F2CB05;
+}
+
+li:hover{
+    color: #f2cb05;
+}
+
+#conteudo{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    background: url('/imgs/architect-3979490.png');
+    background-size: cover;
+}
+
+#conteudo h1, #conteudo p{
+    position: absolute;
+}
+
+#info{
+    position: absolute;
+    margin: 4%;
+    color: white;
+}
+
+#info h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+}
+
+#xonfas{
+    font-size: 1.6em;
+}
+
+#construcoes{
+    margin-left: 10%;
+}
+
+#desc{
+    font-size: 0.25em;
+}
