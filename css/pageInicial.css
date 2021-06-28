@@ -20,8 +20,8 @@ Fontes{
 }
 
 body{
-    background-color: #e9e7d3fb;
-    font-family: 'Coustard', serif;
+    background-color:  #f7f0f0;
+    font-family: 'Lato', sans-serif;
 }
 
 #cabecalho{
@@ -32,7 +32,11 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 1.2em;
+    border-bottom: 1px solid #F2CB05;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 #cabecalho img{
@@ -40,24 +44,32 @@ body{
     cursor: pointer;
 }
 
-ul{
+#cabecalho ul{
     flex-grow: 1;
     display: flex;
     margin: 10px;
 }
 
-ul li{
+#cabecalho ul li{
    list-style: none;
    margin: 5px;
    cursor: pointer;
    border-bottom:solid 2px  #F2CB05;
-   transition-property: color;
-   transition-duration: 0.20s;
 }
 
-#botoesMenu button{
-    margin: 10px;
-    font-size: 15px;
+#cabecalho a{
+    color: black;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.20s;
+}
+
+#botaoMenu{
+    margin-right: 2%;
+}
+
+#botaoMenu button{
+    font-size: 1em;
 }
 
 #botaoLogin{
@@ -77,12 +89,12 @@ ul li{
     background-color: #F2CB05;
 }
 
-li:hover{
+#cabecalho a:hover{
     color: #f2cb05;
 }
 
 #conteudo{
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     background: url('/imgs/architect-3979490.png');
     background-size: cover;
@@ -132,10 +144,16 @@ li:hover{
     outline: none;
     cursor: pointer;
     font-family: 'Coustard', serif;
+    transition-property: background-color;
+    transition-duration: 0.50s;
 }
 
 #desc button a{
     color: white;
     text-decoration: none;
     font-weight: 500;
+}
+
+#desc button:hover{
+    background-color: #a7957e;
 }
