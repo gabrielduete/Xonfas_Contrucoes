@@ -80,3 +80,62 @@ ul li{
 li:hover{
     color: #f2cb05;
 }
+
+#conteudo{
+    width: 100vw;
+    height: 100vh;
+    background: url('/imgs/architect-3979490.png');
+    background-size: cover;
+}
+
+#conteudo h1, #conteudo p{
+    position: absolute;
+}
+
+#info{
+    position: absolute;
+    margin: 4%;
+    color: white;
+}
+
+#info h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+}
+
+#xonfas{
+    font-size: 1.6em;
+}
+
+#desc{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 5%;
+    width: 50%;
+}
+
+#desc p{
+    font-size: 1.2em;
+}
+
+#desc button{
+    margin: 6% 18%;
+    padding: 15px 50px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #F2CB05;
+    background-color: #F2CB05;
+    color: #F2F2F2;
+    font-size: 1em;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Coustard', serif;
+}
+
+#desc button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
