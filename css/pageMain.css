@@ -88,7 +88,15 @@ a:hover{
     color: #f2cb05;
 }
 
-#infos h1{
+
+
+/* Infos Xonfas Construções */
+
+#infos{
+    display: flex;
+}
+
+h1{
     font-family: 'Catamaran', sans-serif;
     text-align: center;
     font-size: 2.3em;
@@ -101,6 +109,9 @@ a:hover{
     margin: 2%;
 }
 
+#infos img{
+    width: 30%;
+}
 
 /* Planos */
 
@@ -123,8 +134,8 @@ h2{
     height: 100%;
 }
 
-#item1, #item2, #item3{
-    background-color:  #e7e7e5dc ;
+.item{
+    background-color:  #ebe8e8dc ;
     border-radius: 1%;
     width: 20vw;
     height: auto;
@@ -132,23 +143,31 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 2px 2px 2px #816c03;
 }
 
-#item1{
-    margin-left: 14%;
-}
-
-#item3{
-    margin-right: 14%;
-}
-
-#item1 p, #item2 p, #item3 p{
+.item p{
     margin: 5%;
     text-align: center;
     font-size: 1.5em;
     color: rgb(0, 0, 0);
     background-color: #F2CB05;
     width: 100%;
+}
+
+.item li{
+    margin: 4%;
+    color: #000000;
+    font-size: 1.1em;
+    list-style: none;
+}
+
+#itens > div:last-of-type {
+    margin-right: 15%;
+}
+  
+#itens > div:first-of-type {
+    margin-left: 15%;
 }
 
 .preco{
@@ -158,16 +177,10 @@ h2{
 
 }
 
-#item1 li, #item2 li, #item3 li{
-    margin: 4%;
-    color: #000000;
-    font-size: 1.1em;
-    list-style: none;
-}
-
 .botaoAssinar{
     margin-right: 35%;
 }
+
 .botaoAssinar button{
     margin-top: 10%;
     padding: 20% 70%;
@@ -184,9 +197,40 @@ h2{
 
 #contato{
     margin-top: 2%;
+    display: flex;
+    /* justify-content: space-between; */
 }
 
-#contato h3{
+h3{
     text-align: center;
-    font-size: 2em;
-} 
+    font-size: 2.5em;
+}
+
+#localizacao{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    font-style: oblique;
+}
+
+#localizacao img{
+    width: 80%;
+}
+
+#dev{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-content: center;
+}
+
+#dev img{
+    width: 30%;
+}
+
+#dev p{
+    margin-top: 10%;
+    font-size: 1.5em;
+}
