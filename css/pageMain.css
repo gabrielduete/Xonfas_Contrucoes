@@ -9,10 +9,11 @@ Paleta de cores{
 
 Fontes{
     Fonte Pequena: font-family: 'Coustard', serif;
-    Fonte Grande: font-family: 'Roboto', sans-serif;
+    Fonte Grande: font-family: 'Roboto', sans-serif; / font-family: 'Catamaran', sans-serif;
 }
 */
 @import url('https://fonts.googleapis.com/css2?family=Coustard&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -20,7 +21,7 @@ Fontes{
 }
 
 body{
-    background-color: #e9e7d3fb;
+    background-color:  #f7f0f0;
     font-family: 'Coustard', serif;
 }
 
@@ -33,6 +34,8 @@ body{
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
+    border-bottom: 2px solid  #F2CB05;
+    /* position: fixed; */
 }
 
 #cabecalho img{
@@ -40,13 +43,13 @@ body{
     cursor: pointer;
 }
 
-ul{
+#cabecalho ul{
     flex-grow: 1;
     display: flex;
     margin: 10px;
 }
 
-ul li{
+#cabecalho ul li{
    list-style: none;
    margin: 5px;
    cursor: pointer;
@@ -79,4 +82,55 @@ ul li{
 
 li:hover{
     color: #f2cb05;
+}
+
+#infos h1{
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    font-size: 2.3em;
+    margin: 3%;
+    color: #050505;
+}
+
+#infos p{
+    text-align: justify;
+    margin: 2%;
+}
+
+#itens{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+h2{
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    font-size: 2.1em;
+    margin-top: 2%;
+}
+
+#item1, #item2, #item3{
+    background-color:  #fceb0093 ;
+    box-shadow: 1px 1px 20px black;
+    width: 20%;
+    height: 400px;
+    border-radius: 7%;
+    cursor: pointer;
+    overflow: inherit;
+}
+
+#item1 p, #item2 p, #item3 p{
+    margin: 10%;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+}
+
+#item1 li, #item2 li, #item3 li{
+    margin: 4%;
+    color: #000000;
+    font-size: 1.3em;
+    list-style: none;
 }
