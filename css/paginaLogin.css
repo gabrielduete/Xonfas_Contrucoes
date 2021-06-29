@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7f0f0;
+    font-family: 'Lato', sans-serif;
+}
+
+#fundo{
+    background-image: url('/imgs/plan-2092499_1920.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    font-size: 2.7em;
+    text-align: center;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#container{
+    margin: 7% auto;
+    /* background-color: #fdfdfae7; */
+    background: linear-gradient(#F2CB05, #6e5e09c7) ;
+    box-shadow: 4px 5px 3px 5px rgba(0, 0, 0, 0.397);
+    width: 50%;
+    height: 70vh;
+    border-radius: 25px;
+    display: flex;
+}
+
+#imagem h2{
+    position: absolute;
+    text-align: center;
+    font-size: 2.4em;
+    margin-left: 5%;
+    color: #F2F2F2;  
+}
+
+#imagem{
+    width: 50%;
+}
+
+#imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+#inputText{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+
+#inputText input{
+    margin: 20% 12%;
+    font-size: 1.1em;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #000000;
+}
+
+::-webkit-input-placeholder {
+    opacity: 75%;
+    font-size: 0.9em;
+    color: black;
+}
+ 
+:-moz-placeholder { 
+    opacity: 75%;
+    font-size: 0.9em;
+    color: black;
+}
+ 
+::-moz-placeholder { 
+    opacity: 75%;
+    font-size: 0.9em;
+    color: black;
+}
+ 
+:-ms-input-placeholder {
+    opacity: 75%;
+    font-size: 0.9em;
+    color: black;
+}
+
+#iconUser{
+    position: absolute;
+    margin-top:  5.4%;
+    margin-right: 17.90%;
+}
+
+#iconSenha{
+    position: absolute;
+    margin-top:  17.2%;
+    margin-right: 17.90%;
+}
+
+#inputText button{
+    padding: 15px 40px;
+    margin-left: 2;
+    cursor: pointer;
+    border-radius: 40px;
+    border-style: none;
+    color: #000000;
+    background-color: #ffc400;
+    transition-property: background-color;
+    transition-duration: 0.70s;
+    font-weight: bolder;
+}
+
+#inputText button:hover{
+    background-color: #f5d673;
+}
