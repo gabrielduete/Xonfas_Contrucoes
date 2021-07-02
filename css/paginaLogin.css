@@ -77,31 +77,35 @@ h1{
     border: none;
     outline: none;
     border-bottom: 3px solid white;
-    color: white;
+    color: rgb(29, 28, 25);
 }
 
 ::-webkit-input-placeholder {
     opacity: 75%;
     font-size: 0.9em;
     color: rgb(29, 28, 25);
+    font-weight: 550;
 }
  
 :-moz-placeholder { 
     opacity: 75%;
     font-size: 0.9em;
     color: rgb(29, 28, 25);
+    font-weight: 550;
 }
  
 ::-moz-placeholder { 
     opacity: 75%;
     font-size: 0.9em;
     color: rgb(29, 28, 25);
+    font-weight: 550;
 }
  
 :-ms-input-placeholder {
     opacity: 75%;
     font-size: 0.9em;
     color: rgb(29, 28, 25);
+    font-weight: 550;
 }
 
 #iconUser{
@@ -129,6 +133,7 @@ h1{
     transition-property: background-color;
     transition-duration: 0.70s;
     font-weight: bolder;
+    outline: none;
 }
 
 #inputText button:hover{

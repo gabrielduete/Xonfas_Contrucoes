@@ -12,6 +12,7 @@ Fontes{
     Fonte Grande: font-family: 'Roboto', sans-serif;
 }
 */
+
 @import url('https://fonts.googleapis.com/css2?family=Coustard&family=Roboto:wght@700&display=swap');
 
 *{
@@ -129,7 +130,7 @@ body{
 
 #desc a{
     padding: 15px 50px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #F2CB05;
     color: #F2F2F2;
     font-size: 1em;

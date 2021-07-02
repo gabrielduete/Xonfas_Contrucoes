@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
     <link rel="stylesheet" href="css/pageMain.css">
     <title>XONFAS CONSTRUÇÕES</title>
 </head>
@@ -24,7 +25,21 @@
         </div>
     </header>
 
-    <h1 id = 'titulo'>XONFAS CONSTRUÇÕES</h1> 
+    <h1 id = 'titulo'>XONFAS CONSTRUÇÕES</h1>
+
+    <div class="meuSlider">
+        <div class="divsImg"> <img class = 'slide-item' src="imgs/building-768815_1280.jpg" alt="imagem1"></div>
+        <div class="divsImg"> <img class = 'slide-item' src="imgs/bulldozer-2195329_1280.jpg" alt="imagem2"></div>
+        <div class="divsImg"> <img class = 'slide-item' src="imgs/excavator-1174428_1280.jpg" alt="imagem3"></div>
+        <div class="divsImg"> <img class = 'slide-item' src="imgs/mining-excavator-1736293_1280.jpg" alt="imagem4"></div>
+    </div>
+
+    <div id="controls">
+        <button class="previous">Prev</button>
+        <button class="next">Next</button>
+        <button class="auto"></button>
+    </div>
+
     <section id = 'infos'>
         <img src="imgs/undraw_small_town_rxs3.png" alt="">
         <hr>
@@ -35,7 +50,11 @@
     <h2 id= 'planos'>Planos</h2>
     <section id = 'itens'>
         <div class = 'item'>
-            <p>BÁSICO</p> <span class = 'preco'>$2000,00</span>
+            <div class = 'textItem'>
+                <p>BÁSICO</p> 
+            </div>
+            
+            <span class = 'preco'>$2000,00</span>
             <hr>
             <div class="ulItens">
             <ul>
@@ -51,14 +70,18 @@
         </div>
         
         <div class = 'item'>
-            <p>MÉDIO</p> <span class = 'preco'>$4000,00</span> 
+            <div class = 'textItem'>
+                <p>MÉDIO</p> 
+            </div>
+            
+            <span class = 'preco'>$4000,00</span> 
             <hr>
             <div class="ulItens">
                 <ul>
                     <li>✔ Reformas a cada 30 anos.</li>
                     <li>✔ Material de qualidade duvidosa.</li>
                     <li>✔ Tintas de qualidade.</li>
-                    <li>✔ Arquitetura Romana.</li>
+                    <li>✔ Trabalhamos com arquitetura Romana.</li>
                 </ul>
             </div>
 
@@ -68,12 +91,15 @@
         </div>
 
         <div class = 'item'>
-            <p>PRO</p> <span class = 'preco'>$10000,00</span>
+            <div class = 'textItem'>
+                <p>PRO</p> 
+            </div> 
+            <span class = 'preco'>$10000,00</span>
             <hr>
             <div class= "ulItens">
                 <ul>
                     <li>✔ Reformas a cada 10 anos.</li>
-                    <li>✔ Material de alta qualidade. Confia.</li>
+                    <li>✔ Material de alta qualidade.</li>
                     <li>✔ Tintas de qualidade.</li>
                     <li>✔ Melhores profissionais.</li>
                     <li>✔ Trabalhamos com qualquer tipo de arquitetura.</li>
@@ -113,6 +139,25 @@
         
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+          var slider = tns({
+            container: '.meuSlider',
+            items: 1,
+            slideBy: 'page',
+            mouseDrag: true,
+            speed: 20,
+            nav: false,
+            controls: true,
+            controlsContainer: '#controls',
+            prevButton : '.previous' , 
+            nextButton : '.next' , 
+            autoplayButton : '.auto',
+            autoplay : true , 
+            autoplayText : [ 'Iniciar' , 'Parar' ] 
+        });
+    </script>
 
 </body>
 </html>
