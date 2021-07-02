@@ -39,6 +39,7 @@ body{
     top: 0;
     position: sticky;
     position: -webkit-sticky;
+    z-index: 2;
 }
 
 #cabecalho img{
@@ -299,5 +300,31 @@ h3{
 
 #controls{
     position: absolute;
-    background-color: blue;
+    width: 100%;
+    margin-top: 30%;
+    z-index: 1;
+}
+
+#controls button{
+    background: none;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.previous{
+    float: right;
+    margin-right: 3%;
+}
+
+.next{
+    margin-left: 3%;
+}
+
+.auto{
+    display: none;
+}
+
+#controls button:hover{
+    transform: scale(1.3);
 }

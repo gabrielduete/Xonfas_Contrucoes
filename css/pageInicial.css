@@ -41,7 +41,7 @@ body{
 }
 
 #cabecalho img{
-    height: 4.5em;
+    height: 2.5em;
     cursor: pointer;
 }
 
@@ -75,19 +75,18 @@ body{
 
 #botaoLogin{
     cursor: pointer;
-    padding: 6px;
+    padding: 8px;
     margin: 10px;
-    border-style: solid;
-    border-color: #F2CB05;
-    background: none;
-    border-radius: 10px;
+    border-style: none;
+    background-color: #F2CB05;
+    border-radius: 3.5px;
     outline: none;
     transition-property: background-color;
     transition-duration: 0.60s;
 }
 
 #botaoLogin:hover{
-    background-color: #F2CB05;
+    background-color: #ecde93;
 }
 
 #cabecalho a:hover{
@@ -106,13 +105,15 @@ body{
     color: white;
 }
 
-#info h1{
+#info h2{
     font-family: 'Roboto', sans-serif;
-    font-size: 5em;
+    font-size: 4em;
+    color: #F2CB05;
 }
 
 #xonfas{
-    font-size: 1.6em;
+    font-size: 4rem;
+    color: white;
 }
 
 #desc{
@@ -130,7 +131,7 @@ body{
 
 #desc a{
     padding: 15px 50px;
-    border-radius: 10px;
+    border-radius: 3px;
     background-color: #F2CB05;
     color: #F2F2F2;
     font-size: 1em;

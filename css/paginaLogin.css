@@ -26,7 +26,6 @@ h1{
 
 #container{
     margin: 7% auto;
-    /* background-color: #fdfdfae7; */
     background: linear-gradient(#F2CB05, #6e5e09c7) ;
     box-shadow: 4px 5px 3px 5px rgba(0, 0, 0, 0.397);
     width: 50%;
@@ -41,14 +40,16 @@ h1{
     font-size: 2.4em;
     margin-left: 5%;
     color: #f7c628;
+    margin-top: 2%;
 }
 
 #imagem p{
     position: absolute;
     text-align: center;
     font-size: 1.6em;
-    margin-top: 20%;
-    width: 25%;
+    margin-top: 15%;
+    width: 21%;
+    margin-left: 2%;
     color: #f7c628;
     font-weight: bolder;
 }
@@ -71,13 +72,17 @@ h1{
 }
 
 #inputText input{
-    margin: 20% 12%;
+    margin: 30% 12%;
     font-size: 1.1em;
     background: none;
     border: none;
     outline: none;
     border-bottom: 3px solid white;
     color: rgb(29, 28, 25);
+}
+
+#inputText > input:first-of-type {
+    margin-bottom: -6%; 
 }
 
 ::-webkit-input-placeholder {
@@ -110,14 +115,14 @@ h1{
 
 #iconUser{
     position: absolute;
-    margin-top:  5.4%;
+    margin-top: 8%;
     margin-right: 17.90%;
     color: white;
 }
 
 #iconSenha{
     position: absolute;
-    margin-top:  17.2%;
+    margin-top:  15.70%;
     margin-right: 17.90%;
     color: white;
 }
