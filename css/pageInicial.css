@@ -106,17 +106,20 @@ body{
 }
 
 #info h2{
+    margin-top: 3%;
     font-family: 'Roboto', sans-serif;
     font-size: 4em;
     color: #F2CB05;
 }
 
-#xonfas{
+#texto1{
+    font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     color: white;
 }
 
 #desc{
+    margin-top: 3%;
     font-family: 'Roboto', sans-serif;
     color: white;
     margin-left: 5%;
@@ -134,7 +137,7 @@ body{
     border-radius: 3px;
     background-color: #F2CB05;
     color: #F2F2F2;
-    font-size: 1em;
+    font-size: 1.2em;
     outline: none;
     cursor: pointer;
     font-family: 'Coustard', serif;
@@ -154,4 +157,62 @@ body{
 
 #meuBotão{
     margin: 10% 30%;
+}
+
+
+/* mobile */
+
+@media (width : 200px){
+    #info h2{
+        margin-top: 3%;
+        font-size: 2em;
+    }
+    
+    #texto1{
+        font-size: 1.5rem;
+    }
+
+    #meuBotão{
+        margin: 20% 30%;
+    }
+
+    #desc{
+        margin-top: 3%;
+        width: 100%;
+    }
+    
+    #desc a{
+        padding: 15px 10px;
+        font-size: 1em;
+    }
+}
+
+@media (min-width : 320px) and (max-width: 480px) {
+    #info h2{
+        margin-top: 3%;
+        font-size: 2.7em;
+    }
+    
+    #texto1{
+        font-size: 2.2rem;
+    }
+
+    #meuBotão{
+        margin: 20% 30%;
+    }
+}
+
+@media (min-width : 481px) and (max-width: 768px) {
+    #info h2{
+        margin-top: 3%;
+        font-size: 3em;
+    }
+    
+    #texto1{
+        font-size: 2.5rem;
+    }
+
+    #meuBotão{
+        margin: 20% 30%;
+    }
 }

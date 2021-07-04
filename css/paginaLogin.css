@@ -85,34 +85,6 @@ h1{
     margin-bottom: -6%; 
 }
 
-::-webkit-input-placeholder {
-    opacity: 75%;
-    font-size: 0.9em;
-    color: rgb(29, 28, 25);
-    font-weight: 550;
-}
- 
-:-moz-placeholder { 
-    opacity: 75%;
-    font-size: 0.9em;
-    color: rgb(29, 28, 25);
-    font-weight: 550;
-}
- 
-::-moz-placeholder { 
-    opacity: 75%;
-    font-size: 0.9em;
-    color: rgb(29, 28, 25);
-    font-weight: 550;
-}
- 
-:-ms-input-placeholder {
-    opacity: 75%;
-    font-size: 0.9em;
-    color: rgb(29, 28, 25);
-    font-weight: 550;
-}
-
 #iconUser{
     position: absolute;
     margin-top: 8%;
@@ -156,3 +128,102 @@ h1{
 #inputText a{
     text-decoration: none;
 }
+
+::-webkit-input-placeholder {
+    opacity: 75%;
+    font-size: 0.9em;
+    color: rgb(29, 28, 25);
+    font-weight: 550;
+}
+ 
+:-moz-placeholder { 
+    opacity: 75%;
+    font-size: 0.9em;
+    color: rgb(29, 28, 25);
+    font-weight: 550;
+}
+ 
+::-moz-placeholder { 
+    opacity: 75%;
+    font-size: 0.9em;
+    color: rgb(29, 28, 25);
+    font-weight: 550;
+}
+ 
+:-ms-input-placeholder {
+    opacity: 75%;
+    font-size: 0.9em;
+    color: rgb(29, 28, 25);
+    font-weight: 550;
+}
+
+/* Mobile */
+
+@media (min-width : 320px) and (max-width: 480px) {   
+    #container{
+        margin: 7% auto;
+        width: 70%;
+        height: 50vh;
+    }
+
+    #imagem{
+        display: none;
+    }
+
+    #inputText{
+        width: 100%;
+        height: 100%;
+    }
+
+    #inputText input{
+        font-size: .81em;
+    }
+    #iconUser{
+        position: absolute;
+        margin-top: 22%;
+        margin-right: 49.90%;
+        color: white;
+    }
+    
+    #iconSenha{
+        position: absolute;
+        margin-top:  43.70%;
+        margin-right: 49.90%;
+        color: white;
+    }
+    
+    #inputText button{
+        padding: 15px 40px;
+        margin-left: 2;
+        cursor: pointer;
+        border-radius: 40px;
+        border-style: none;
+        color: white;
+        background-color: #ffc400;
+        transition-property: background-color;
+        transition-duration: 0.70s;
+        font-weight: bolder;
+        outline: none;
+    }
+    
+    #inputText button{
+        padding: 15px 15px;
+    }
+
+    #inputText p{
+        margin-top: 3%;
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width : 481px) and (max-width: 768px) {
+    #container{
+        margin: 7% auto;
+        width: 70%;
+        height: 50vh;
+    }
+
+    #imagem{
+        display: none;
+    }
+} 
