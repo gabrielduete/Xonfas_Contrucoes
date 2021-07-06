@@ -43,7 +43,7 @@ body{
 }
 
 #cabecalho img{
-    height: 4.5em;
+    height: 1.9em;
     cursor: pointer;
 }
 
@@ -97,21 +97,15 @@ body{
 
 /* Infos Xonfas Construções */
 
-#infos{
-    display: flex;
-}
-
-h1{
-    font-family: 'Catamaran', sans-serif;
-    text-align: center;
-    font-size: 5em;
-    margin: 2%;
-    color: #050505;
+#quem{
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 10% 0%;
 }
 
 #infos p{
     text-align: justify;
-    margin: 2%;
+    margin: 1%;
     font-size: 1.1em;
 }
 
@@ -149,7 +143,6 @@ h2{
     align-items: center;
     box-shadow: 1px 1px 8px 1px #00000070;
 }
-
 
 .textItem{
     background-color: #F2CB05;
@@ -327,4 +320,217 @@ h3{
 
 #controls button:hover{
     transform: scale(1.3);
+}
+
+.divsImg img{
+    width: 100%;
+}
+
+/* media */
+@media (max-width: 400px) {
+    #cabecalho li{
+        font-size: 0.6em;
+    }
+
+    #itens{
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .botaoAssinar button{
+        margin-top: 10%;
+        padding: 30% 70%;
+        font-size: 0.7em;
+    }
+
+    #botaoMenu button{
+        font-size: 0.5em;
+        padding: 5px;
+    }
+}
+
+/* @mixin for-phone-only { */
+@media (max-width: 600px) {
+    #cabecalho{
+        font-size: 0.8em;
+    }
+
+    #itens{
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #infos img{
+        display: none;
+    }
+
+    #email p{
+        width: auto;
+        height: auto;
+        font-size: 0.2em;
+    }
+
+    .item{
+        width: 30vh;
+        margin-top: 10%;
+    }
+
+    .item li{
+        font-size: 1.5em;
+        list-style: none;
+    }
+
+    .preco{
+        font-size: 1.8em;
+    }
+
+    #itens > div:last-of-type {
+        margin-right: 0;
+    }
+    
+    #itens > div:first-of-type {
+        margin-left: 0;
+    }
+
+    .botaoAssinar button{
+        margin-top: 10%;
+        padding: 30% 70%;
+        font-size: 0.7em;
+    }
+
+    #contato{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    #localizacao{
+        flex-direction: row;
+    }
+
+    #localizacao img{
+        width: 100%;
+    }
+
+    #dev img{
+        width: 60%;
+    }
+
+    #iconsDev{
+        position: absolute;
+        width: 20%;
+        margin-left: 55.3%;
+        display: flex;
+        margin-top: 28%;
+    }
+
+    #email{
+        flex-direction: row;
+    }
+
+    #email p{
+        margin: 25% 2%;
+        font-size: 1em;
+    }
+}
+
+/* @mixin for-tablet-landscape-up { */
+@media (max-width: 900px) and (max-width: 1200px) { 
+
+    #cabecalho{
+        font-size: 0.8em;
+    }
+
+    #itens{
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #infos img{
+        display: none;
+    }
+
+    #email p{
+        width: auto;
+        height: auto;
+        font-size: 0.2em;
+    }
+
+    .item{
+        width: 30vh;
+        margin-top: 10%;
+    }
+
+    .item li{
+        font-size: 1.5em;
+        list-style: none;
+    }
+
+    .preco{
+        font-size: 1.8em;
+    }
+
+    #itens > div:last-of-type {
+        margin-right: 0;
+    }
+    
+    #itens > div:first-of-type {
+        margin-left: 0;
+    }
+
+    .botaoAssinar button{
+        margin-top: 10%;
+        padding: 30% 70%;
+        font-size: 0.7em;
+    }
+
+    #contato{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    #localizacao{
+        flex-direction: row;
+    }
+
+    #localizacao img{
+        width: 100%;
+    }
+
+    #dev img{
+        width: 60%;
+    }
+
+    #iconsDev{
+        position: absolute;
+        width: 20%;
+        margin-left: 55.3%;
+        display: flex;
+        margin-top: 28%;
+    }
+
+    #email{
+        flex-direction: row;
+    }
+
+    #email p{
+        margin: 25% 2%;
+        font-size: 1em;
+    }
+}
+
+/* @mixin for-desktop-up { */
+@media (min-width: 1200px) { 
+    
+}
+
+/* @mixin for-big-desktop-up { */
+@media (min-width: 1800px) { 
+
 }
