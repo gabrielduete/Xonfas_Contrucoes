@@ -119,6 +119,7 @@ body{
     margin-top: 3%;
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
 }
 
 h2{
@@ -327,9 +328,9 @@ h3{
 }
 
 /* media */
-@media (max-width: 400px) {
+@media (min-width: 200px) and (max-width: 450px) {
     #cabecalho li{
-        font-size: 0.6em;
+        font-size: 0.9em;
     }
 
     #itens{
