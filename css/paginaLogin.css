@@ -177,18 +177,13 @@ h1{
     #inputText input{
         font-size: .81em;
     }
+    
     #iconUser{
-        position: absolute;
-        margin-top: 22%;
-        margin-right: 49.90%;
-        color: white;
+        display: none;
     }
     
     #iconSenha{
-        position: absolute;
-        margin-top:  43.70%;
-        margin-right: 49.90%;
-        color: white;
+        display: none;
     }
     
     #inputText button{
@@ -356,13 +351,11 @@ h1{
     }
 
     #iconUser{
-        margin-top: 11%;
-        margin-right: 3.90%;
+        display: none;
     }
     
     #iconSenha{
-        margin-top: 23%;
-        margin-right: 3.90%;
+        display: none;
     }
     
     #inputText button{
@@ -402,13 +395,11 @@ h1{
     }
 
     #iconUser{
-        margin-top: 12%;
-        margin-right: 22.90%;
+        display: none;
     }
     
     #iconSenha{
-        margin-top: 26%;
-        margin-right: 22.90%;
+        display: none;
     }
     
     #inputText button{
@@ -437,13 +428,11 @@ h1{
     }
 
     #iconUser{
-        margin-top: 21%;
-        margin-right: 54.90%;
+        display: none;
     }
     
     #iconSenha{
-        margin-top: 43%;
-        margin-right: 54.90%;
+        display: none;
     }
     
     #inputText button{
@@ -477,13 +466,11 @@ h1{
     }
 
     #iconUser{
-        margin-top: 23%;
-        margin-right: 61.90%;
+        display: none;
     }
     
     #iconSenha{
-        margin-top: 46%;
-        margin-right: 61.90%;
+        display: none;
     }
     
     #inputText button{
@@ -518,13 +505,11 @@ h1{
     }
 
     #iconUser{
-        margin-top: 12%;
-        margin-right: 7.90%;
+        display: none;
     }
     
     #iconSenha{
-        margin-top: 24%;
-        margin-right: 7.90%;
+        display: none;
     }
     
     #inputText button{
